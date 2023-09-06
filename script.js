@@ -24,10 +24,8 @@ var audio = document.getElementById("myAudio");
 var audioPlayer = document.getElementById("myAudio");
 
 
-// Start playing the audio when the page loads
-audio.play();
+playButton.onclick=goTown   
 
-// Loop the audio
 
 
 
@@ -170,6 +168,7 @@ function update(location) {
 }
 
 function goTown() {
+    playButton.style.display="none"
     update(locations[0]);
     changeImage(imageStuff[0]);
     changeAudioSource('Undertale_OST_-_Waterfall_(mp3.pm).mp3');
