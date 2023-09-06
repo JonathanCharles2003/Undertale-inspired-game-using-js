@@ -95,13 +95,13 @@ const locations = [
         name:"kill monster",
         "button text":["Go to town square","Go to town square","Go to town square"],
         "button functions":[goTown,goTown,easterEgg],
-        text:'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
+        text:'The monsters turn into ashes.You gain experience points and find gold.'
     },
     {
         name:"lose",
         "button text" :["REPLAY?","REPLAY?","REPLAY?"],
         "button functions": [restart,restart,restart],
-        text : "You die."
+        text : "You lose."
     },
     {
         name:"win",
