@@ -171,19 +171,19 @@ function goTown() {
     playButton.style.display="none"
     update(locations[0]);
     changeImage(imageStuff[0]);
-    changeAudioSource('Undertale_OST_-_Waterfall_(mp3.pm).mp3');
+    changeAudioSource('./music/Undertale_OST_-_Waterfall_(mp3.pm).mp3');
 }
 
 function goStore() {
     update(locations[1]);
     changeImage(imageStuff[1]);
-    changeAudioSource('toby_fox_-_Undertale_OST_023_-_Shop_(mp3.pm).mp3'); 
+    changeAudioSource('./music/toby_fox_-_Undertale_OST_023_-_Shop_(mp3.pm).mp3'); 
 }
 
 function goCave(){
     update(locations[2]);
     changeImage(imageStuff[2]);
-    changeAudioSource('Undertale_OST_-_Premonition_(mp3.pm).mp3');
+    changeAudioSource('./music/Undertale_OST_-_Premonition_(mp3.pm).mp3');
 }
 
 function buyHealth(){
@@ -229,19 +229,19 @@ function sellWeapon(){
     }
 }
 function fightFroggit(){
-    changeAudioSource('toby_fox_-_Enemy_Approaching_(mp3.pm).mp3');
+    changeAudioSource('./music/toby_fox_-_Enemy_Approaching_(mp3.pm).mp3');
     changeImage(imageStuff[3]);
     fighting=0;
     goFight();
 }
 function fightBeast(){
-    changeAudioSource('toby_fox_-_Enemy_Approaching_(mp3.pm).mp3');
+    changeAudioSource('./music/toby_fox_-_Enemy_Approaching_(mp3.pm).mp3');
     changeImage(imageStuff[4]);
     fighting=1;
     goFight();
 }
 function fightToriel(){
-    changeAudioSource('Undertale_OST_-_Toby_Fox_-_Heartache_(mp3.pm).mp3');
+    changeAudioSource('./music/Undertale_OST_-_Toby_Fox_-_Heartache_(mp3.pm).mp3');
     atk=0;
     changeImage(imageStuff[5]);
     fighting=2;
@@ -338,11 +338,11 @@ function defeatMonster(){
     update(locations[4]);
 }
 function lose(){
-    changeAudioSource('Toby_Fox_-_Start_Menu_Undertale_OST_(mp3.pm).mp3');
+    changeAudioSource('./music/Toby_Fox_-_Start_Menu_Undertale_OST_(mp3.pm).mp3');
     update(locations[5]);
 }
 function winGame(){
-    changeAudioSource('Toby_Fox_-_Your_Best_Nightmare_(mp3.pm).mp3');
+    changeAudioSource('./music/Toby_Fox_-_Your_Best_Nightmare_(mp3.pm).mp3');
     update(locations[6]);
 }
 function restart(){
